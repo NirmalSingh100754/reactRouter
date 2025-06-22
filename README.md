@@ -1,14 +1,38 @@
-# React + Vite
+# React + Vite Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a minimal React application powered by [Vite](https://vitejs.dev/), featuring fast development with Hot Module Replacement (HMR) and a basic ESLint setup.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Fast development with Vite
+- 🔥 React with HMR for instant updates
+- 🧹 ESLint for code quality
+- 🛣️ Ready for React Router integration
 
-## Expanding the ESLint configuration
+## Plugins
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# reactRouter
-# reactRouter
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react): Uses Babel for Fast Refresh
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc): Uses SWC for Fast Refresh
+
+## Getting Started
+
+1. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server:**
+
+   ```bash
+   npm run dev
+   ```
+
+3. **Build for production:**
+   ```bash
+   npm run build
+   ```
+
+## ESLint Configuration
+
+For production apps, consider using TypeScript and enabling type-aware lint rules. See the [TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and [`typescript-eslint`](https://typescript-eslint.io) for more information.
