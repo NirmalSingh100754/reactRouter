@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Contact() {
   return (
     <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
@@ -19,8 +17,8 @@ export default function Contact() {
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
                   viewBox="0 0 24 24"
                   className="w-8 h-8 text-gray-500"
                 >
@@ -38,7 +36,7 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                  Acme Inc, Street, State, Postal Code
+                  Chunar,Mirzapur, Uttar Pradesh
                 </div>
               </div>
 
@@ -47,8 +45,8 @@ export default function Contact() {
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
                   viewBox="0 0 24 24"
                   className="w-8 h-8 text-gray-500"
                 >
@@ -60,7 +58,7 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                  +44 1234567890
+                  +91-9565469972
                 </div>
               </div>
 
@@ -68,8 +66,8 @@ export default function Contact() {
                 <svg
                   fill="none"
                   strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="1.5"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
                   viewBox="0 0 24 24"
                   className="w-8 h-8 text-gray-500"
                 >
@@ -81,7 +79,7 @@ export default function Contact() {
                   />
                 </svg>
                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                  info@acme.org
+                  nirmal.devframe@gmail.com
                 </div>
               </div>
             </div>
