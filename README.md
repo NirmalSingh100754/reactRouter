@@ -1,38 +1,54 @@
-# React + Vite Starter
+# React + Vite Portfolio
 
-This project is a minimal React application powered by [Vite](https://vitejs.dev/), featuring fast development with Hot Module Replacement (HMR) and a basic ESLint setup.
+A modern portfolio and contact site built with React, Vite, and React Router. This project features a responsive layout, sticky header/footer, dynamic GitHub API integration, and a contact form.
 
 ## Features
 
 - ⚡️ Fast development with Vite
 - 🔥 React with HMR for instant updates
 - 🧹 ESLint for code quality
-- 🛣️ Ready for React Router integration
+- 🛣️ Routing with React Router
+- 📄 Pages: Home, About, Contact, GitHub
+- 👤 Dynamic GitHub profile section (followers, avatar)
+- 📬 Contact form with address, phone, and email
+- 📱 Responsive design with Tailwind CSS
 
-## Plugins
+## Project Structure
 
-- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react): Uses Babel for Fast Refresh
-- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc): Uses SWC for Fast Refresh
+- `src/components/Header/Header.jsx` — Sticky navigation bar
+- `src/components/Footer/Footer.jsx` — Footer always at the bottom
+- `src/components/Home/Home.jsx` — Home page
+- `src/components/About/About.jsx` — About page
+- `src/components/Contact/Contact.jsx` — Contact info and form
+- `src/components/Github/Github.jsx` — GitHub API integration
+- `src/Layout.jsx` — Main layout with sticky footer
+- `src/main.jsx` — App entry and router setup
 
 ## Getting Started
 
 1. **Install dependencies:**
-
    ```bash
    npm install
    ```
-
 2. **Start the development server:**
-
    ```bash
    npm run dev
    ```
-
 3. **Build for production:**
    ```bash
    npm run build
    ```
 
-## ESLint Configuration
+## GitHub API Integration
 
-For production apps, consider using TypeScript and enabling type-aware lint rules. See the [TypeScript template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and [`typescript-eslint`](https://typescript-eslint.io) for more information.
+The GitHub page fetches and displays live data from your GitHub profile. Update the username in `Github.jsx` to use your own profile if desired.
+
+## Contact Info
+
+- **Email:** nirmal.devframe@gmail.com
+- **Phone:** +91-9565469972
+- **Address:** Chunar, Mirzapur, Uttar Pradesh
+
+---
+
+Feel free to fork, modify, and use this template for your own portfolio or projects!
